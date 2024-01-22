@@ -16,22 +16,7 @@ import factory.AbstractDuckFactory;
 import factory.CountingDuckFactory;
 
 public class Program {
-//	public static void main(String[] args) {
-//		int choice = 0;
-//		Scanner sc = new Scanner(System.in);
-//		do {
-//			System.out.println("\n======>MENU<======");
-//			System.out.println("1. Tạo đàn vịt");
-//			System.out.println("2. đếm tổng số con có trong đàn bao gồm cả vịt và ngỗng");
-//			System.out.println("3. Thống kê số con mỗi loại theo từng đàn");
-//			System.out.println("Nhập số 0 để thoát chương trình");
-//			choice = sc.nextInt();
-//			sc.nextLine();
-//		} while (choice != 0);
-//	}
-	
-	
-	
+
 	public static void main(String[] args) {
 		Program simulator = new Program();
 		factory.AbstractDuckFactory duckFactory = new CountingDuckFactory();
